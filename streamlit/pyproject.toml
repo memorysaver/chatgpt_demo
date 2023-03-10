@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chatgpt-demo-api"
+version = "0.1.0"
+description = ""
+authors = ["Memorysaver <mfa1484@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.20.0"
+watchdog = "^2.3.1"
+
+[virtualenvs]
+in-project = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
