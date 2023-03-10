@@ -5,4 +5,5 @@ services:
   rootDir: api
   buildCommand: "poetry install"
   startCommand: "uvicorn main:app"
+  plan: free
   autoDeploy: false
